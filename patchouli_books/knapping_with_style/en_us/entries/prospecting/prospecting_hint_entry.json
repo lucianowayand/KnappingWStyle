@@ -1,0 +1,70 @@
+{
+    "name": "Hint Rocks",
+    "icon": "tfc:rock/loose/andesite",
+    "category": "patchouli:prospecting_category",
+    "pages": [
+        "If you don't want to wander around with your prospecting pick testing every inch of the river you can follow this guide to find the best places to prospect for ores.$(br2)If you found a small nugget or a loose stone that doesn't seem to fit with its surroundings you most probably found a underground vein.",
+        "Dig arround and test the surrounding soil and see if you find any traces, sometimes the ore can be deep in the soil so don't loose faith!",
+        "Hint Rocks: $(br2)A hint rock is what we call loose stones that don't fit the soil around it, it will signal veins of ore that are close to the surface.",
+        {
+            "type": "patchouli:spotlight",
+            "item": "tfc:rock/loose/basalt",
+            "title": "Basalt",
+            "text": "Basalt could be a sign for: $(br)$(li)Bituminous Coal$(li)Lignite"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tfc:rock/loose/chalk",
+            "title": "Chalk",
+            "text": "Chalk could be a sign for: $(br)$(li)Kimberlite$(li)Lapis Lazuli"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tfc:rock/loose/chert",
+            "title": "Chert",
+            "text": "Chert could be a sign for: $(br)$(li)Borax"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tfc:rock/loose/claystone",
+            "title": "Claystone",
+            "text": "Claystone could be a sign for: $(li)Graphite"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tfc:rock/loose/diorite",
+            "title": "Diorite",
+            "text": "Diorite could be a sign for: $(br)$(li)Saltpeter"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tfc:rock/loose/gneiss",
+            "title": "Gneiss",
+            "text": "Gneiss could be a sign for: $(br)$(li)Cinnabar"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tfc:rock/loose/marble",
+            "title": "Marble",
+            "text": "Marble could be a sign for: $(br)$(li)Kaolinite$(li)Sylvite"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tfc:rock/loose/quartzite",
+            "title": "Quartzite",
+            "text": "Quartzite could be a sign for: $(br)$(li)Gypsum"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tfc:rock/loose/shale",
+            "title": "Shale",
+            "text": "Shale could be a sign for: $(br)$(li)Sulfur"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tfc:rock/loose/slate",
+            "title": "Slate",
+            "text": "Slate could be a sign for: $(br)$(li)Cryolite"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+'firmalife:yak_milk'
+'firmalife:goat_milk'
+'minecraft:milk'
+'firmalife:honey_jar'
+'firmalife:raw_honey'
+
+'create:sweet_roll'
+condensed milk: ['firmalife:yak_milk','firmalife:goat_milk','minecraft:milk'], '#firmalife:sweetener',
+cinammon,
+bread: '#tfc:foods/breads'
+
+'create:honeyed_apple'
+'#tfc:foods/apples',
+'create:honey'
+
+'create:chocolate_glazed_berries'
+chocolate:['firmalife:food/milk_chocolate','firmalife:food/milk_chocolate','firmalife:food/white_chocolate']
+'tfc:food/cranberry',
+
+# 'create:builders_tea'
+
+'firmalife:food/milk_chocolate'
+'firmalife:food/milk_chocolate'
+'firmalife:food/white_chocolate'
+* 'create:bar_of_chocolate'
+
+A:'firmalife:food/cocoa_butter'
+B:'firmalife:food/cocoa_powder'
+C:'#firmalife:sweetener'
+
+'firmalife:food/dark_chocolate_blend'
+B,B,C
+'firmalife:food/white_chocolate_blend'
+A,A,C
+'firmalife:food/milk_chocolate_blend'
+A,B,C
+
+{
+    ingredient:{item:'farmersdelight:pasta_with_meatballs'},
+    hunger:6,
+    saturation:2,
+    decay_modifier:2,
+    protein:2,
+    grain:2,
+    vegetables:3
+}
+
+

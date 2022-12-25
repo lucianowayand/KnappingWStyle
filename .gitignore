@@ -1,0 +1,17 @@
+/crash-reports/
+/defaultconfigs/
+/disabledmods/
+/jarmods/
+/journeymap/
+/logs/
+/resourcepacks/
+/saves/
+/screenshots/
+/schematics/
+/scripts/
+instance.json
+options.txt
+patchouli_data.json
+rhino.local.properties
+usercache.json
+usernamecache.json

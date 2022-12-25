@@ -1,0 +1,9 @@
+{
+  "name": "Knapping w/ Style",
+  "landing_text": "A guide to the Knapping w/ Style modpack. This modpack was to integrate the Create Mod with Terrafirmacraft 1.18.2.$(br2)If you have any questions, join us on the $(l:https://discord.gg/Y2DFfHApkC)Discord$(/l) server.",
+  "book_texture":"patchouli:textures/gui/book_blue.png",
+  "model":"patchouli:book_blue",
+  "dont_generate_book": false,
+  "show_progress": false,
+  "macros": {}
+}
