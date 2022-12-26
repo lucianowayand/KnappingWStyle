@@ -34,7 +34,7 @@ onEvent('recipes', (event) => {
     processingTime: 150,
   })
 
-  event.shapeless(Item.of('create:sand_paper', '{Damage:0}'), [
+  event.shapeless('create:sand_paper', [
     '#forge:sand',
     'minecraft:paper',
   ])

@@ -49,6 +49,13 @@ const rockTypes = [
   'marble',
 ]
 
+const rockTypes2 = [
+  'igneous_intrusive',
+  'igneous_extrusive',
+  'sedimentary',
+  'metamorphic'
+]
+
 const tfcMetal = [
   'bismuth',
   'bismuth_bronze',
@@ -79,7 +86,39 @@ const tfcMetal = [
   'high_carbon_red_steel',
 ]
 
-// ['tfc:rock/cobble/andesite', 'tfc:rock/cobble/schist', 'tfc:rock/cobble/gabbro', 'tfc:rock/cobble/basalt', 'tfc:rock/cobble/chert', 'tfc:rock/cobble/chalk', 'tfc:rock/cobble/claystone', 'tfc:rock/cobble/conglomerate']
+const tfcMetalTools =[
+  'bismuth_bronze',
+  'black_bronze',
+  'bronze',
+  'copper',
+]
+
+const tfcMetalToolsHard =[
+  'wrought_iron',
+  'steel',
+  'black_steel',
+  'blue_steel',
+  'red_steel'
+]
+
+const toolHeads = [
+  'shovel',
+  'axe',
+  'hoe',
+  'hammer',
+  'javelin',
+  'pickaxe',
+  'chisel',
+  'propick',
+  'mace'
+]
+
+const toolBlades = [
+  'knife',
+  'sword',
+  'scythe',
+  'saw'
+]
 
 const sandRocks = [
   'claystone',

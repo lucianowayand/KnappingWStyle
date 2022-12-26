@@ -18,6 +18,7 @@ onEvent('recipes', (event) => {
     ],
     processingTime: 150,
   })
+
   event.custom({
     type: 'create:splashing',
     ingredients: [
@@ -34,6 +35,7 @@ onEvent('recipes', (event) => {
     ],
     processingTime: 150,
   })
+
   event.custom({
     type: 'create:splashing',
     ingredients: [
@@ -50,6 +52,7 @@ onEvent('recipes', (event) => {
     ],
     processingTime: 150,
   })
+
   event.custom({
     type: 'create:splashing',
     ingredients: [
@@ -66,5 +69,25 @@ onEvent('recipes', (event) => {
     ],
     processingTime: 150,
   })
-  
+})
+
+onEvent('recipes', (event) => {
+  sandColors.forEach((color) => {
+    event.custom({
+      type: 'create:splashing',
+      ingredients: [
+        {
+          item: `tfc:sand/${color}`,
+        },
+      ],
+      results: [
+        {
+          item: 'minecraft:clay_ball',
+          count: 1,
+          chance: 0.5,
+        },
+      ],
+      processingTime: 150,
+    })
+  })
 })
