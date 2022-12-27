@@ -1,5 +1,5 @@
 onEvent('recipes', (event) => {
-  tfcMetal.forEach((metal) => {
+  tfcMetal.concat(tfcMetalUnfinished).forEach((metal) => {
     event.recipes.createPressing(
       [
         'tfc:metal/ingot/' + metal,
@@ -67,11 +67,7 @@ onEvent('recipes', (event) => {
       }
     })
   })
-  
 
-})
-
-onEvent('recipes', (event) => {
   event.recipes.createPressing(
     'tfc:metal/ingot/high_carbon_steel',
     'tfc:metal/ingot/pig_iron',
@@ -80,4 +76,11 @@ onEvent('recipes', (event) => {
     'tfc:metal/ingot/steel',
     'tfc:metal/ingot/high_carbon_steel',
   )
+
+  tfcMetal.forEach((element) => {
+    event.recipes.createPressing(
+      `tfc:metal/sheet/${element}`,
+      `tfc:metal/double_ingot/${element}`
+    )
+  })
 })

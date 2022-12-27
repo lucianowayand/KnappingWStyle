@@ -19,4 +19,22 @@ onEvent('recipes', (event) => {
       processingTime: lumberProcessingTime,
     })
   })
+
+  framedGlass.forEach((glass) => {
+    event.custom({
+      type: 'create:cutting',
+      ingredients: [
+        {
+          item: 'minecraft:glass',
+        },
+      ],
+      results: [
+        {
+          item: glass,
+          count: 1,
+        },
+      ],
+      processingTime: 50,
+    })
+  })
 })

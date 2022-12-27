@@ -4,6 +4,9 @@ const framedGlass = [
   'create:vertical_framed_glass',
 ]
 
+const createIngots = ['zinc', 'brass']
+const minecraftIngots = ['iron', 'gold','copper']
+
 const logTypes = [
   'acacia',
   'ash',
@@ -53,7 +56,7 @@ const rockTypes2 = [
   'igneous_intrusive',
   'igneous_extrusive',
   'sedimentary',
-  'metamorphic'
+  'metamorphic',
 ]
 
 const tfcMetal = [
@@ -72,11 +75,13 @@ const tfcMetal = [
   'sterling_silver',
   'wrought_iron',
   'cast_iron',
-  'pig_iron',
   'steel',
   'black_steel',
   'blue_steel',
   'red_steel',
+]
+const tfcMetalUnfinished = [
+  'pig_iron',
   'weak_steel',
   'weak_blue_steel',
   'weak_red_steel',
@@ -86,19 +91,14 @@ const tfcMetal = [
   'high_carbon_red_steel',
 ]
 
-const tfcMetalTools =[
-  'bismuth_bronze',
-  'black_bronze',
-  'bronze',
-  'copper',
-]
+const tfcMetalTools = ['bismuth_bronze', 'black_bronze', 'bronze', 'copper']
 
-const tfcMetalToolsHard =[
+const tfcMetalToolsHard = [
   'wrought_iron',
   'steel',
   'black_steel',
   'blue_steel',
-  'red_steel'
+  'red_steel',
 ]
 
 const toolHeads = [
@@ -110,15 +110,10 @@ const toolHeads = [
   'pickaxe',
   'chisel',
   'propick',
-  'mace'
+  'mace',
 ]
 
-const toolBlades = [
-  'knife',
-  'sword',
-  'scythe',
-  'saw'
-]
+const toolBlades = ['knife', 'sword', 'scythe', 'saw']
 
 const sandRocks = [
   'claystone',
@@ -131,12 +126,4 @@ const sandRocks = [
   'gabbro',
 ]
 
-const sandColors = [
-  'brown',
-  'white',
-  'black',
-  'red',
-  'yellow',
-  'green',
-  'pink',
-]
+const sandColors = ['brown', 'white', 'black', 'red', 'yellow', 'green', 'pink']

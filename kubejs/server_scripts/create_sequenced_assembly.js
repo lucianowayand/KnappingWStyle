@@ -1,45 +1,5 @@
 
 onEvent('recipes', (event) => {
-  framedGlass.forEach((glass) => {
-    event.custom({
-      type: 'create:cutting',
-      ingredients: [
-        {
-          item: 'minecraft:glass',
-        },
-      ],
-      results: [
-        {
-          item: glass,
-          count: 1,
-        },
-      ],
-      processingTime: 50,
-    })
-  })
-
-  event.custom({
-    type: 'create:compacting',
-    ingredients: [
-      {
-        item: '9x tfc:rock/loose/quartzite',
-      },
-    ],
-    results: [
-      {
-        item: 'minecraft:quartz',
-        count: 1,
-      },
-    ],
-    processingTime: 150,
-  })
-
-  event.shapeless('create:sand_paper', [
-    '#forge:sand',
-    'minecraft:paper',
-  ])
-
-  //'#forge:smooth_stone_slab'
   event.recipes
     .createSequencedAssembly(
       [
@@ -68,7 +28,6 @@ onEvent('recipes', (event) => {
     .transitionalItem('create:incomplete_precision_mechanism')
     .loops(1) // set the transitional item and the loops (amount of repetitions)
 
-  event.remove({ output: 'create:track' })
   event.recipes
     .createSequencedAssembly(
       [

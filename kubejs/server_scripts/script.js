@@ -23,13 +23,4 @@ onEvent('player.logged_in', (event) => {
   }
 })
 
-onEvent('recipes', (event) => {
-  event.remove({ mod: '@minecraft' })
-  event.remove({ type: 'minecraft:blasting' })
-  event.remove({ type: 'minecraft:campfire_cooking' })
-  event.remove({ type: 'minecraft:smelting' })
-  event.remove({ type: 'minecraft:smithing' })
-  event.remove({ type: 'minecraft:smoking' })
-  event.remove({ type: 'minecraft:stonecutting' })
-  event.remove({ type: 'createsifter:sifting' })
-})
+
