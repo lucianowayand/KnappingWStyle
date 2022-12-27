@@ -26,4 +26,11 @@ onEvent('recipes', (event) => {
       'tfc:powder/flux',
     ]).heated()
   })
+
+  tfcMetal.forEach((metal) => {
+    event.recipes.createCompacting(`tfc:metal/double_sheet/${metal}`, [
+      `2x tfc:metal/sheet/${metal}`,
+      'tfc:powder/flux',
+    ]).heated()
+  })
 })
