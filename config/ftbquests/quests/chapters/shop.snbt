@@ -1,0 +1,792 @@
+{
+	id: "2BCE7BACAD61FFE9"
+	group: ""
+	order_index: 1
+	filename: "shop"
+	title: "Shop - Buy"
+	icon: "kubejs:coin_gold"
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Money Exchange I"
+			x: -3.0d
+			y: 1.5d
+			can_repeat: true
+			id: "117C4536354211E6"
+			tasks: [{
+				id: "4D87A4256E054355"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:coin_gold"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1D073A0176C14965"
+				type: "item"
+				item: "kubejs:coin_blue_steel"
+			}]
+		}
+		{
+			title: "Money Exchange II"
+			x: -1.0d
+			y: 1.5d
+			can_repeat: true
+			id: "3BC360764CE12A00"
+			tasks: [{
+				id: "2DDF1A70CF614232"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:coin_blue_steel"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1412CB6C3EDA176B"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 64
+			}]
+		}
+		{
+			title: "Trading Post"
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "kws:trading_machine"
+				}
+			}
+			disable_toast: true
+			x: 0.0d
+			y: 0.0d
+			optional: true
+			can_repeat: true
+			id: "11D4EAEBA07DB316"
+			tasks: [{
+				id: "405CA1C777C41512"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "07103C7614350ED2"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "kws:trading_machine"
+					}
+				}
+			}]
+		}
+		{
+			icon: "tfc:wood/log/acacia"
+			x: -3.0d
+			y: 3.0d
+			optional: true
+			can_repeat: true
+			id: "30B671E7FC2DC93D"
+			tasks: [{
+				id: "53DF8CCBCA75DF2F"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 8L
+			}]
+			rewards: [{
+				id: "196FEFB49F54F28A"
+				type: "item"
+				item: "tfc:wood/log/acacia"
+				count: 16
+			}]
+		}
+		{
+			icon: "tfc:rock/loose/phyllite"
+			x: -1.0d
+			y: 3.0d
+			optional: true
+			can_repeat: true
+			id: "61ABD4EE07959927"
+			tasks: [{
+				id: "4820EFE4213C641C"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 4L
+			}]
+			rewards: [{
+				id: "6F7B5361DA49A1ED"
+				type: "item"
+				item: "tfc:rock/loose/phyllite"
+				count: 32
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:stick"
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+			}
+			x: 1.0d
+			y: 3.0d
+			id: "6DABBAD847AA1EAC"
+			tasks: [{
+				id: "7177233A3653936F"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 4L
+			}]
+			rewards: [{
+				id: "7D292307705013F2"
+				type: "item"
+				item: {
+					id: "minecraft:stick"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+				count: 16
+			}]
+		}
+		{
+			icon: "tfc:ore/graphite"
+			x: -3.0d
+			y: 4.5d
+			id: "006162101A6582FF"
+			tasks: [{
+				id: "28361DE8B7638740"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 16L
+			}]
+			rewards: [{
+				id: "5C4AEE8EEF55D176"
+				type: "item"
+				item: "tfc:ore/graphite"
+			}]
+		}
+		{
+			icon: "tfc:ore/kaolinite"
+			x: -2.0d
+			y: 4.5d
+			id: "6E76E6ED791FBAB4"
+			tasks: [{
+				id: "221683FC605F40E9"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 16L
+			}]
+			rewards: [{
+				id: "226E4C3180C67B9B"
+				type: "item"
+				item: "tfc:ore/kaolinite"
+			}]
+		}
+		{
+			icon: "tfc:ore/gypsum"
+			x: -1.0d
+			y: 4.5d
+			id: "122B1F64F35EE5DD"
+			tasks: [{
+				id: "2AAD235778A4EEF2"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 16L
+			}]
+			rewards: [{
+				id: "525D8E7C1AA048BF"
+				type: "item"
+				item: "tfc:ore/gypsum"
+			}]
+		}
+		{
+			icon: "tfc:ore/sulfur"
+			x: 0.0d
+			y: 4.5d
+			id: "5AC8959E47DC6F18"
+			tasks: [{
+				id: "0DB604C23B4E8C0B"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 16L
+			}]
+			rewards: [{
+				id: "2C6608EC9E46001A"
+				type: "item"
+				item: "tfc:ore/sulfur"
+			}]
+		}
+		{
+			icon: "tfc:ore/cryolite"
+			x: 1.0d
+			y: 4.5d
+			id: "0598CCD2CEBFE92E"
+			tasks: [{
+				id: "113A9EBB69728BBE"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 16L
+			}]
+			rewards: [{
+				id: "405F134661956533"
+				type: "item"
+				item: "tfc:ore/cryolite"
+			}]
+		}
+		{
+			icon: "tfc:ore/cinnabar"
+			x: 2.0d
+			y: 4.5d
+			id: "7D1C93203A79AA60"
+			tasks: [{
+				id: "16FB566F9CB5D8A3"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 16L
+			}]
+			rewards: [{
+				id: "5812BF411D602908"
+				type: "item"
+				item: "tfc:ore/cinnabar"
+			}]
+		}
+		{
+			icon: "tfc:ore/sylvite"
+			x: 3.0d
+			y: 4.5d
+			id: "104C17395F866F20"
+			tasks: [{
+				id: "527D92A24EAB6E4D"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 16L
+			}]
+			rewards: [{
+				id: "7EB2AE6C137930C0"
+				type: "item"
+				item: "tfc:ore/sylvite"
+			}]
+		}
+		{
+			icon: "tfc:ore/borax"
+			x: -4.0d
+			y: 4.5d
+			id: "5065F8B9BA783632"
+			tasks: [{
+				id: "4B8970E167018453"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 16L
+			}]
+			rewards: [{
+				id: "5E8BFF3EEAFF386A"
+				type: "item"
+				item: "tfc:ore/borax"
+			}]
+		}
+		{
+			icon: "tfc:ore/halite"
+			x: 4.0d
+			y: 4.5d
+			id: "3066D5DC6956B965"
+			tasks: [{
+				id: "207270F62D4B3D6F"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 16L
+			}]
+			rewards: [{
+				id: "18EB8E8D045F0BFE"
+				type: "item"
+				item: "tfc:ore/halite"
+			}]
+		}
+		{
+			icon: "tfc:ore/lignite"
+			x: -5.0d
+			y: 4.5d
+			id: "6D363CF0BFE8DEBB"
+			tasks: [{
+				id: "7B6C1B4BF9292654"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 16L
+			}]
+			rewards: [{
+				id: "4E600BB8C74B3CE6"
+				type: "item"
+				item: "tfc:ore/lignite"
+			}]
+		}
+		{
+			icon: "tfc:ore/bituminous_coal"
+			x: 5.0d
+			y: 4.5d
+			id: "3E68A81F79C9B065"
+			tasks: [{
+				id: "139C18D9020A6CD9"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 16L
+			}]
+			rewards: [{
+				id: "5E26C61CB39C8416"
+				type: "item"
+				item: "tfc:ore/bituminous_coal"
+			}]
+		}
+		{
+			icon: {
+				id: "tfc:ore/normal_native_copper"
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+			}
+			x: -5.0d
+			y: 5.5d
+			id: "77F97789D7F09621"
+			tasks: [{
+				id: "1250D92110AE3844"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 16L
+			}]
+			rewards: [{
+				id: "423396831AB78E07"
+				type: "item"
+				item: {
+					id: "tfc:ore/normal_native_copper"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "tfc:ore/normal_native_gold"
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+			}
+			x: -4.0d
+			y: 5.5d
+			id: "36EB4196AB914C18"
+			tasks: [{
+				id: "406B0BBBE64DC054"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 16L
+			}]
+			rewards: [{
+				id: "5936FA84CE0EBEF2"
+				type: "item"
+				item: {
+					id: "tfc:ore/normal_native_gold"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "tfc:ore/normal_hematite"
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+			}
+			x: -3.0d
+			y: 5.5d
+			id: "63F8F88B72C99013"
+			tasks: [{
+				id: "18CA35902528CECD"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 16L
+			}]
+			rewards: [{
+				id: "63C7732261942AE2"
+				type: "item"
+				item: {
+					id: "tfc:ore/normal_hematite"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "tfc:ore/normal_native_silver"
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+			}
+			x: -2.0d
+			y: 5.5d
+			id: "273BB88D432E304D"
+			tasks: [{
+				id: "7111850B402ECD73"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 16L
+			}]
+			rewards: [{
+				id: "028F6EABA49DC036"
+				type: "item"
+				item: {
+					id: "tfc:ore/normal_native_silver"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "tfc:ore/normal_cassiterite"
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+			}
+			x: -1.0d
+			y: 5.5d
+			id: "167C34F50F5E2742"
+			tasks: [{
+				id: "126267807BCC4C6A"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 16L
+			}]
+			rewards: [{
+				id: "27AD640CA1AB03AF"
+				type: "item"
+				item: {
+					id: "tfc:ore/normal_cassiterite"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "tfc:ore/normal_bismuthinite"
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+			}
+			x: 0.0d
+			y: 5.5d
+			id: "1EE84299A99EC609"
+			tasks: [{
+				id: "5845FD6289CD0CAE"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 16L
+			}]
+			rewards: [{
+				id: "497A047016959564"
+				type: "item"
+				item: {
+					id: "tfc:ore/normal_bismuthinite"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "tfc:ore/normal_garnierite"
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+			}
+			x: 1.0d
+			y: 5.5d
+			id: "7E7CC527103D5788"
+			tasks: [{
+				id: "324E1ABEFE83B6F0"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 16L
+			}]
+			rewards: [{
+				id: "21F4FB064687EBFC"
+				type: "item"
+				item: {
+					id: "tfc:ore/normal_garnierite"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "tfc:ore/normal_malachite"
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+			}
+			x: 2.0d
+			y: 5.5d
+			id: "1A91FC999D19B10A"
+			tasks: [{
+				id: "2F918E1EB2587137"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 16L
+			}]
+			rewards: [{
+				id: "0EF31549E6FA0AC9"
+				type: "item"
+				item: {
+					id: "tfc:ore/normal_malachite"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "tfc:ore/normal_magnetite"
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+			}
+			x: 3.0d
+			y: 5.5d
+			id: "74A446D1EDDEFA1E"
+			tasks: [{
+				id: "754E3CC58CE09DBC"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 16L
+			}]
+			rewards: [{
+				id: "3F830EBC5F6B1DB9"
+				type: "item"
+				item: {
+					id: "tfc:ore/normal_magnetite"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "tfc:ore/normal_limonite"
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+			}
+			x: 4.0d
+			y: 5.5d
+			id: "3766D61F8719DBE8"
+			tasks: [{
+				id: "0E239144EA5A11EE"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 16L
+			}]
+			rewards: [{
+				id: "2C46AD3ADCF64181"
+				type: "item"
+				item: {
+					id: "tfc:ore/normal_limonite"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "tfc:ore/normal_sphalerite"
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+			}
+			x: 5.0d
+			y: 5.5d
+			id: "44F68986F9D5B3B8"
+			tasks: [{
+				id: "0F280AE7C4A5B53D"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 16L
+			}]
+			rewards: [{
+				id: "656E9CEA025FE810"
+				type: "item"
+				item: {
+					id: "tfc:ore/normal_sphalerite"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "minecraft:clay_ball"
+			x: 3.0d
+			y: 3.0d
+			id: "54668DC5ABEEC553"
+			tasks: [{
+				id: "2D33A5715426653D"
+				type: "item"
+				item: "kubejs:coin_gold"
+				count: 8L
+			}]
+			rewards: [{
+				id: "1FA48EC6A8D6C63B"
+				type: "item"
+				item: "minecraft:clay_ball"
+				count: 16
+			}]
+		}
+		{
+			title: "Money Exchange III"
+			icon: "kubejs:coin_red_steel"
+			x: 1.0d
+			y: 1.5d
+			can_repeat: true
+			id: "68F383258824371F"
+			tasks: [{
+				id: "3CF06456536A19F0"
+				type: "item"
+				item: "kubejs:coin_blue_steel"
+				count: 64L
+			}]
+			rewards: [{
+				id: "4CC53CA59C93F8CD"
+				type: "item"
+				item: "kubejs:coin_red_steel"
+			}]
+		}
+		{
+			title: "Money Exchange IV"
+			icon: "minecraft:emerald_block"
+			x: 3.0d
+			y: 1.5d
+			can_repeat: true
+			id: "346A9C18DCDE40A9"
+			tasks: [{
+				id: "770EB0346E64662F"
+				type: "item"
+				item: "kubejs:coin_red_steel"
+			}]
+			rewards: [{
+				id: "0724DF2C3615F67B"
+				type: "item"
+				item: "kubejs:coin_blue_steel"
+				count: 64
+			}]
+		}
+	]
+	quest_links: [ ]
+}

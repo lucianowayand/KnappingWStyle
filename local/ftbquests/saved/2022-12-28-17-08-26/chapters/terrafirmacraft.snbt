@@ -1,0 +1,165 @@
+{
+	id: "3F2C2E39FC30B54C"
+	group: ""
+	order_index: 0
+	filename: "terrafirmacraft"
+	title: "TerraFirmaCraft"
+	icon: "tfc:rock/loose/andesite"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -9.5d
+			y: -4.0d
+			id: "5C3C80520272419E"
+			tasks: [{
+				id: "374473E3974878D6"
+				type: "checkmark"
+				title: "Beginning"
+			}]
+		}
+		{
+			title: "We dont puch trees"
+			x: -7.0d
+			y: -4.0d
+			dependencies: ["5C3C80520272419E"]
+			id: "600E3CDE24EA7AFD"
+			tasks: [{
+				id: "352D774636BF8DEE"
+				type: "item"
+				title: "Any #tfc:rock_knapping"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfc:rock_knapping"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7F165AF23A08E36E"
+				type: "item"
+				item: {
+					id: "minecraft:stick"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			title: "Starting Tools"
+			icon: {
+				id: "tfc:stone/knife/igneous_intrusive"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.5d
+			y: -4.0d
+			dependencies: ["600E3CDE24EA7AFD"]
+			id: "0B5D99C338658F87"
+			tasks: [
+				{
+					id: "682AECEC3FC06EBF"
+					type: "item"
+					title: "Any #tfc:axe_head"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfc:axe_head"
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "158AC65D93207429"
+					type: "item"
+					title: "Any #tfc:shovel_head"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfc:shovel_head"
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "30C3C5BDE55CD70D"
+					type: "item"
+					title: "Any #tfc:knife_blade"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfc:knife_blade"
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "4E112152A31354FD"
+					type: "item"
+					title: "Any #tfc:hoe_head"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfc:hoe_head"
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "5FE5D2BDA48186C2"
+					type: "item"
+					title: "Any #tfc:hammer_head"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfc:hammer_head"
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "13136B63FF5C7C58"
+					type: "item"
+					item: {
+						id: "tfc:firestarter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+			]
+			rewards: [{
+				id: "257073ECD8825639"
+				type: "item"
+				item: {
+					id: "tfc:food/cooked_tropical_fish"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:food": {
+							traits: [ ]
+							creationDate: 630000L
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -32,4 +32,6 @@ onEvent('recipes', (event) => {
     .keepIngredient('#tfc:hammers')
 
   event.shapeless('create:sand_paper', ['#forge:sand', 'minecraft:paper'])
+
+  event.shapeless(Item.of('minecraft:paper', "{shopping:'acacia_log',display:{Name:'{\"text\":\"Shopping Permit\"}'}}"), ['kubejs:coin_gold'])
 })
