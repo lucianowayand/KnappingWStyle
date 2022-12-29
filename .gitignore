@@ -9,6 +9,7 @@
 /screenshots/
 /schematics/
 /scripts/
+/local/
 instance.json
 options.txt
 patchouli_data.json
