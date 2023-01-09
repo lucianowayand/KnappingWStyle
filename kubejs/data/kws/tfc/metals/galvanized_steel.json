@@ -1,0 +1,12 @@
+{
+    "tier": 3,
+    "fluid": "kubejs:molten_galvanized_steel",
+    "melt_temperature": 920,
+    "heat_capacity": 0.00857,
+    "ingots": {
+        "item": "kubejs:galvanized_steel"
+    },
+    "sheets": {
+        "item": "kubejs:galvanized_steel_sheet"
+    }
+}

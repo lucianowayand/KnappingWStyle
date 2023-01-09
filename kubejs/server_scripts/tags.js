@@ -1,6 +1,14 @@
 
-//['tfc:stone/axe_head/igneous_extrusive', 'tfc:stone/hammer_head/igneous_extrusive', 'tfc:stone/hoe_head/igneous_extrusive', 'tfc:stone/javelin_head/igneous_extrusive', 'tfc:stone/knife_head/igneous_extrusive']
 onEvent('tags.items', (event) => {
+    event.add('balm:ingots', 'kubejs:galvanized_steel')
+    event.add('forge:ingots', 'kubejs:galvanized_steel')
+    event.add('tfc:pileable_ingots', 'kubejs:galvanized_steel')
+    event.add('tfc:metal_item/galvanized_steel', 'kubejs:galvanized_steel')
+    event.add('tfc:metal_item/galvanized_steel', 'kubejs:galvanized_steel_double_ingot')
+    event.add('tfc:metal_item/galvanized_steel', 'kubejs:galvanized_steel_sheet')
+    event.add('tfc:metal_item/galvanized_steel', 'kubejs:galvanized_steel_double_sheet')
+
+
     rockTypes2.forEach(element => {
         event.add('tfc:shovel_head', `tfc:stone/shovel_head/${element}`)
         event.add('tfc:axe_head', `tfc:stone/axe_head/${element}`)
@@ -57,4 +65,6 @@ onEvent('tags.items', (event) => {
         event.add('tfc:scythe_hard', `tfc:metal/scythe/${element}`)
         event.add('tfc:saw_hard', `tfc:metal/saw/${element}`)
     })
+
+    
 })

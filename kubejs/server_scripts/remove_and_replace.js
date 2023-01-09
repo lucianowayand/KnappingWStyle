@@ -26,7 +26,7 @@ onEvent('recipes', (event) => {
 
   event.remove({ output: 'create:hose_pulley' })
   event.remove({ output: 'create:rope_pulley' })
-  
+
   event.replaceInput({}, 'minecraft:slime_ball', 'tfc:glue')
 
   event.remove({ output: 'create:tree_fertilizer' })
@@ -91,19 +91,19 @@ onEvent('recipes', (event) => {
   event.remove({ output: 'create:copper_nugget' })
   event.remove({ output: 'create:copper_sheet' })
   event.remove({ output: 'create:golden_sheet' })
-  minecraftIngots.forEach((ingot) =>{
+  minecraftIngots.forEach((ingot) => {
     event.remove({ output: `minecraft:${ingot}_ingot` })
     event.remove({ output: `minecraft:${ingot}_nugget` })
     event.remove({ output: `minecraft:${ingot}_block` })
   })
-  
-  createIngots.forEach((ingot) =>{
+
+  createIngots.forEach((ingot) => {
     event.remove({ output: `create:${ingot}_ingot` })
     event.remove({ output: `create:${ingot}_nugget` })
     event.remove({ output: `create:${ingot}_block` })
     event.remove({ output: `create:${ingot}_sheet` })
   })
-  
+
   event.replaceInput({}, `minecraft:iron_block`, 'tfc:metal/double_sheet/wrought_iron')
   event.replaceInput({}, 'minecraft:copper_block', 'tfc:metal/double_sheet/copper')
   event.replaceInput({}, 'create:brass_block', 'tfc:metal/double_sheet/brass')
@@ -119,4 +119,6 @@ onEvent('recipes', (event) => {
 
   event.remove({ output: 'create:andesite_alloy' })
   event.remove({ output: 'create:track' })
+
+  event.remove({ output: '@waystones' })
 })

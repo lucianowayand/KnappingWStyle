@@ -27,4 +27,10 @@ onEvent('recipes', (event) => {
     })
     .noMirror()
     .noShrink()
+
+  event.shaped('waystones:waystone', [' A ', 'ABA', 'CCC'], {
+    A: '#forge:stone_bricks',
+    B: '#forge:gems',
+    C: 'tfc:metal/sheet/black_bronze',
+  }).noMirror().noShrink()
 })
