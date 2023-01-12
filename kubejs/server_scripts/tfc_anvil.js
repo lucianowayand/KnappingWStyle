@@ -44,9 +44,90 @@ onEvent('recipes', (event) => {
         },
         tier: 3,
         rules: [
-            "upset_any",
-            "upset_any",
-            "upset_any"
+            "punch_last",
+            "hit_not_last",
+            "bend_not_last"
+        ]
+    })
+    event.custom({
+        type: 'tfc:anvil',
+        input: {
+            item: 'tfc:metal/sheet/brass',
+        },
+        result: {
+            item: 'create:brass_ladder',
+            count: 16
+        },
+        tier: 3,
+        rules: [
+            "punch_last",
+            "hit_not_last",
+            "bend_not_last"
+        ]
+    })
+    event.custom({
+        type: 'tfc:anvil',
+        input: {
+            item: 'tfc:metal/sheet/copper',
+        },
+        result: {
+            item: 'create:copper_ladder',
+            count: 16
+        },
+        tier: 3,
+        rules: [
+            "punch_last",
+            "hit_not_last",
+            "bend_not_last"
+        ]
+    })
+
+    event.custom({
+        type: 'tfc:anvil',
+        input: {
+            item: 'tfc:metal/double_sheet/wrought_iron',
+        },
+        result: {
+            item: 'kubejs:unfinished_propeller',
+            count: 1
+        },
+        tier: 3,
+        rules: [
+            "punch_last",
+            "bend_not_last",
+            "punch_not_last"
+        ]
+    })
+    event.custom({
+        type: 'tfc:anvil',
+        input: {
+            item: 'tfc:metal/double_sheet/wrought_iron',
+        },
+        result: {
+            item: 'kubejs:unfinished_whisk',
+            count: 1
+        },
+        tier: 3,
+        rules: [
+            "bend_last",
+            "punch_not_last",
+            "upset_not_last"
+        ]
+    })
+    event.custom({
+        type: 'tfc:anvil',
+        input: {
+            item: 'tfc:metal/double_sheet/brass',
+        },
+        result: {
+            item: 'kubejs:unfinished_brass_hand',
+            count: 1
+        },
+        tier: 3,
+        rules: [
+            "bend_last",
+            "hit_not_last",
+            "hit_not_last"
         ]
     })
 })

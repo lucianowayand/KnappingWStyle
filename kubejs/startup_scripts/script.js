@@ -10,6 +10,11 @@ onEvent('item.registry', event => {
 	event.create('galvanized_steel_double_ingot').displayName('Galvanized Steel Double Ingot')
 	event.create('galvanized_steel_sheet').displayName('Galvanized Steel Sheet')
 	event.create('galvanized_steel_double_sheet').displayName('Galvanized Steel Double Sheet')
+	
+	event.create('unfinished_brass_hand').displayName('Unfinished Brass Hand')
+	event.create('unfinished_propeller').displayName('Unfinished Propeller')
+	event.create('unfinished_whisk').displayName('Unfinished Whisk')
+	
 })
 
 onEvent('block.registry', event => {

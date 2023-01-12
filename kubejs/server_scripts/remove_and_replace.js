@@ -112,6 +112,7 @@ onEvent('recipes', (event) => {
   event.replaceInput({}, 'minecraft:copper_ingot', 'tfc:metal/ingot/copper')
   event.replaceInput({}, 'create:brass_ingot', 'tfc:metal/ingot/brass')
 
+  event.remove({ output: 'create:iron_sheet' })
   event.replaceInput({}, 'create:iron_sheet', 'tfc:metal/sheet/wrought_iron')
   event.replaceInput({}, 'create:copper_sheet', 'tfc:metal/sheet/copper')
   event.replaceInput({}, 'create:brass_sheet', 'tfc:metal/sheet/brass')
@@ -125,4 +126,8 @@ onEvent('recipes', (event) => {
   event.replaceInput({}, 'create:andesite_alloy', 'kubejs:galvanized_steel')
 
   event.remove({output: 'create:andesite_ladder'})
+  event.remove({output: 'create:brass_hand'})
+  event.remove({output: 'create:whisk'})
+  event.remove({output: 'create:propeller'})
+
 })

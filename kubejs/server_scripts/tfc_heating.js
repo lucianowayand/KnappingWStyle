@@ -46,4 +46,40 @@ onEvent('recipes', (event) => {
     },
     temperature: 930,
   })
+
+  event.custom({
+    type: 'tfc:heating',
+    ingredient: {
+      item: 'kubejs:unfinished_propeller',
+    },
+    result_fluid: {
+      fluid: 'tfc:metal/cast_iron',
+      amount: 400,
+    },
+    temperature: 1535,
+  })
+
+  event.custom({
+    type: 'tfc:heating',
+    ingredient: {
+      item: 'kubejs:unfinished_whisk',
+    },
+    result_fluid: {
+      fluid: 'tfc:metal/cast_iron',
+      amount: 400,
+    },
+    temperature: 1535,
+  })
+
+  event.custom({
+    type: 'tfc:heating',
+    ingredient: {
+      item: 'kubejs:unfinished_brass_hand',
+    },
+    result_fluid: {
+      fluid: 'tfc:metal/brass',
+      amount: 400,
+    },
+    temperature: 930,
+  })
 })
