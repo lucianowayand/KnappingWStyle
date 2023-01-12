@@ -1,0 +1,21 @@
+{
+    "name": "Making Galvanized Steel",
+    "icon": "kubejs:galvanized_steel",
+    "category": "patchouli:galvanized_steel_category",
+    "pages": [
+        "Galvanized Steel is not an alloy. Its steel with zinc plating and other compounds. Its used on a big number of recipes, all of them necessary for your progression.$(br2)To make Galvanized steel you will need to progress in the game at least until you have a steady supply of zinc and iron.",
+        "As Galvanized Steel is not an alloy it can't be melted back, zinc has a melting point much lower than iron or steel and it would boil away before the iron or steel could melt.$(br2)However it can be welded and made into sheets.",
+        {
+            "type": "patchouli:spotlight",
+            "item": "tfc:metal/hammer/steel",
+            "title": "Welding",
+            "text": "One of the ways to get Galvanized Steel ingots is to weld a zinc sheet with a zinc ingot."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tfc:bucket/metal/zinc",
+            "title": "Spout",
+            "text": "A more resource effective way to make Galvanized Steel is to apply molten Zinc to a Wrought Iron ingot using the Spout, this way you can get 4 Galvanized Steel ingots from 1 Zinc ingot."
+        }
+    ]
+}

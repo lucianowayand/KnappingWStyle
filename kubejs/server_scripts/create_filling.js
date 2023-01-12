@@ -1,6 +1,6 @@
 onEvent('recipes', (event) => {
-    event.recipes.createFilling('create:andesite_alloy', [
-		'tfc:metal/ingot/steel',
+    event.recipes.createFilling('kubejs:galvanized_steel', [
+		'tfc:metal/ingot/wrought_iron',
 		Fluid.of('tfc:metal/zinc', 250)
 	])
 })

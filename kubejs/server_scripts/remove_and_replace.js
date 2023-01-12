@@ -121,4 +121,8 @@ onEvent('recipes', (event) => {
   event.remove({ output: 'create:track' })
 
   event.remove({ output: '@waystones' })
+  event.remove({ output: 'create:andesite_alloy' })
+  event.replaceInput({}, 'create:andesite_alloy', 'kubejs:galvanized_steel')
+
+  event.remove({output: 'create:andesite_ladder'})
 })
