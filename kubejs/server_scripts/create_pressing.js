@@ -83,4 +83,8 @@ onEvent('recipes', (event) => {
       `tfc:metal/double_ingot/${element}`
     )
   })
+
+  event.recipes.createPressing('tfc:refined_iron_bloom', 'tfc:raw_iron_bloom')
+  event.recipes.createPressing('tfc:metal/ingot/wrought_iron','tfc:refined_iron_bloom')
+
 })

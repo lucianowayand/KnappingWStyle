@@ -27,3 +27,9 @@ onEvent('fluid.registry', event => {
     .thickTexture(0x7D93A1)
     .bucketColor(0x7D93A1)
 })
+
+onEvent('item.modification', event => {
+  event.modify('tfc:ceramic/unfired_ingot_mold', item => {
+    item.maxStackSize = 64
+  })
+})

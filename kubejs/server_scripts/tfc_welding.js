@@ -2,7 +2,7 @@ onEvent('recipes', (event) => {
     event.custom({
         type: "tfc:welding",
         first_input: {
-            item: "tfc:metal/ingot/steel"
+            item: "tfc:metal/ingot/wrought_iron"
         },
         second_input: {
             item: "tfc:metal/sheet/zinc"

@@ -125,6 +125,7 @@ onEvent('recipes', (event) => {
   event.remove({ output: 'create:andesite_alloy' })
   event.replaceInput({}, 'create:andesite_alloy', 'kubejs:galvanized_steel')
 
+  event.remove({output: 'create:shaft'})
   event.remove({output: 'create:andesite_ladder'})
   event.remove({output: 'create:brass_hand'})
   event.remove({output: 'create:whisk'})
