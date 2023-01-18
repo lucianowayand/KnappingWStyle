@@ -33,4 +33,14 @@ onEvent('recipes', (event) => {
       'tfc:powder/flux',
     ]).heated()
   })
+
+  event.recipes.createCompacting('kubejs:galvanized_steel_double_ingot', [
+    "2x kubejs:galvanized_steel",
+    'tfc:powder/flux',
+  ]).heated()
+
+  event.recipes.createCompacting('kubejs:galvanized_steel_double_sheet', [
+    `2x kubejs:galvanized_steel_sheet`,
+    'tfc:powder/flux',
+  ]).heated()
 })

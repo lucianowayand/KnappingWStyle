@@ -8,8 +8,8 @@ onEvent('recipes', (event) => {
       Item.of(
         'tfc:ceramic/ingot_mold',
         '{heat:{heat:0.0f,ticks:0L},tank:{Amount:100,FluidName:"tfc:metal/' +
-          metal +
-          '"}}',
+        metal +
+        '"}}',
       ),
     )
   })
@@ -23,10 +23,10 @@ onEvent('recipes', (event) => {
       '{heat:{heat:0.0f,ticks:0L},tank:{Amount:100,FluidName:"firmalife:metal/chromium"}}',
     ),
   )
-  
+
   toolHeads.forEach((element) => {
     tfcMetalTools.concat(tfcMetalToolsHard).map((metal) => {
-      if(element !== 'mace'){
+      if (element !== 'mace') {
         event.recipes.createPressing(
           `tfc:metal/${element}_head/${metal}`,
           Item.of(
@@ -48,7 +48,7 @@ onEvent('recipes', (event) => {
 
   toolBlades.forEach((element) => {
     tfcMetalTools.concat(tfcMetalToolsHard).map((metal) => {
-      if(element !== 'sword'){
+      if (element !== 'sword') {
         event.recipes.createPressing(
           `tfc:metal/${element}_blade/${metal}`,
           Item.of(
@@ -85,6 +85,11 @@ onEvent('recipes', (event) => {
   })
 
   event.recipes.createPressing('tfc:refined_iron_bloom', 'tfc:raw_iron_bloom')
-  event.recipes.createPressing('tfc:metal/ingot/wrought_iron','tfc:refined_iron_bloom')
+  event.recipes.createPressing('tfc:metal/ingot/wrought_iron', 'tfc:refined_iron_bloom')
+
+  event.recipes.createPressing(
+    'kubejs:galvanized_steel_sheet',
+    'kubejs:galvanized_steel_double_ingot'
+  )
 
 })
